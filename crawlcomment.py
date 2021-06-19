@@ -3,7 +3,7 @@ from time import sleep
 from selenium.webdriver.common.keys import Keys
 
 # 1. Khai báo browser
-browser = webdriver.Chrome(executable_path="./chromedriver")
+browser = webdriver.Chrome(executable_path="./chromedriver.exe")
 
 # 2. Mở URL của post
 browser.get("https://www.facebook.com/groups/miaigroup/permalink/730028114435130/")
